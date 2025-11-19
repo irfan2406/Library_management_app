@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-help",
+    "status": "Issued",
+    "image": "images/atomic.jpg",
+    "rating": "4.8 / 5",
+    "description": "A proven guide to building better habits."
+  },
+  {
+    "id": 2,
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "status": "Available",
+    "image": "images/gatsby.jpg",
+    "rating": "4.2 / 5",
+    "description": "A novel set in the Jazz Age."
+  },
+  {
+    "id": 3,
+    "name": "Ikigai",
+    "author": "Hector Garcia & Francesc Miralles",
+    "genre": "Philosophy",
+    "status": "Available",
+    "image": "images/ikigai.jpg",
+    "rating": "4.4 / 5",
+    "description": "The Japanese secret to a long and happy life."
+  },
+  {
+    "id": 4,
+    "name": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Self-help",
+    "status": "Available",
+    "image": "images/deepwork.jpg",
+    "rating": "4.6 / 5",
+    "description": "Rules for focused success in a distracted world."
+  },
+  {
+    "id": 5,
+    "name": "Think Like a Monk",
+    "author": "Jay Shetty",
+    "genre": "Self-help",
+    "status": "Available",
+    "image": "images/monk.jpg",
+    "rating": "4.3 / 5",
+    "description": "Train your mind for peace and purpose."
+  },
+  {
+    "id": 6,
+    "name": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "status": "Issued",
+    "image": "images/alchemist.jpg",
+    "rating": "4.7 / 5",
+    "description": "A journey of dreams, destiny and spirituality."
+  },
+  {
+    "id": 7,
+    "name": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "genre": "Finance",
+    "status": "Available",
+    "image": "images/money.jpg",
+    "rating": "4.8 / 5",
+    "description": "Timeless lessons on wealth, greed and happiness."
+  },
+  {
+    "id": 8,
+    "name": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "genre": "Self-help",
+    "status": "Available",
+    "image": "images/powerhabit.jpg",
+    "rating": "4.5 / 5",
+    "description": "Why we do what we do in life and business."
+  },
+  {
+    "id": 9,
+    "name": "1984",
+    "author": "George Orwell",
+    "genre": "Classic",
+    "status": "Available",
+    "image": "images/1984.jpg",
+    "rating": "4.6 / 5",
+    "description": "A dystopian novel about totalitarianism."
+  },
+  {
+    "id": 10,
+    "name": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "genre": "Finance",
+    "status": "Issued",
+    "image": "images/richdad.jpg",
+    "rating": "4.4 / 5",
+    "description": "What the rich teach their kids about money."
+  },
+  {
+    "id": 11,
+    "name": "Harry Potter",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "status": "Available",
+    "image": "images/harry.jpg",
+    "rating": "4.9 / 5",
+    "description": "A magical adventure at Hogwarts."
+  },
+  {
+    "id": 12,
+    "name": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self-help",
+    "status": "Available",
+    "image": "images/subtle.jpg",
+    "rating": "4.1 / 5",
+    "description": "A counterintuitive approach to living a better life."
+  }
+]
