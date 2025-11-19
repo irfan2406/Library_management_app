@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef3fb;
+}
+
+header {
+    background: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px #ccc;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.card {
+    width: 260px;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 8px #aaa;
+    text-align: center;
+}
+
+/* ---- HOME PAGE BOOK IMAGES ---- */
+.card img {
+    width: 100%;               /* Full width of container */
+    height: 200px;             /* Fixed height for all cards */
+    object-fit: contain;       /* Show entire image without cropping */
+    border-radius: 10px;
+    background-color: #f5f5f5; /* Light background for empty space */
+    transition: transform 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #0077ff;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.details-container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+/* ---- BOOK DETAILS PAGE IMAGE ---- */
+.details-container .detail-img {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;       /* Show entire image without cropping */
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #aaa;
+    background-color: #f5f5f5; /* Light background for empty space */
+}
+
+.info {
+    max-width: 500px;
+}
+
+.rec-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+/* ---- RECOMMENDED BOOKS IMAGES ---- */
+.rec-card img {
+    width: 120px;
+    height: 170px;
+    object-fit: contain;       /* Show entire image */
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #999;
+    background-color: #f5f5f5; /* Light background for empty space */
+}

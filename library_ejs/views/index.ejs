@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Library Management System</title>
+</head>
+<body>
+    
+<%- include("partials/header") %>
+<h2 style="text-align:center;">Available Books</h2>
+
+<div class="container">
+
+    <% books.forEach(book => { %>
+
+        <div class="card">
+            <img src="<%= book.image %>" alt="<%= book.name %>">
+            <h2><%= book.name %></h2>
+            <p><b>Author:</b> <%= book.author %></p>
+            <p><b>Genre:</b> <%= book.genre %></p>
+            <p><b>Status:</b> <%= book.status %></p>
+
+            <a class="btn" href="/book/<%= book.id %>">
+                View Details
+                <!-- <a href="/details/1" class="btn">View Details</a> -->
+
+            </a>
+        </div>
+
+    <% }) %>
+
+</div>
+
+<%- include("partials/footer") %>
+</body>
+</html>
